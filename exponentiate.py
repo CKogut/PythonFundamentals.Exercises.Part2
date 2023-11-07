@@ -6,8 +6,10 @@ def exponentiate(x, y):
 def raise_to_fourth_power(x):
     return exponentiate(x, 4)
 
+# square number, calling exponentiate
 square = lambda x : exponentiate(x, 2)
 
+# cube number, calling exponentiate
 cube = lambda x : exponentiate(x, 3)
 
 print(square(2))
